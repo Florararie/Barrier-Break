@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "barrierbreak",
+	"version": "${version}",
+	"name": "Barrier Break",
+	"description": "Makes barrier blocks instantly breakable in survival by hand or any tool.",
+	"authors": [
+		"Floramene"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/barrierbreak/icon.png",
+	"entrypoints": {
+		"main": [
+			"floramene.barrierbreak.BarrierBreakMod"
+		]
+	},
+	"mixins": [
+		"barrierbreak.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=21"
+	}
+}
